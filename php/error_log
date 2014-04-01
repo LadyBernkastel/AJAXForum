@@ -1,0 +1,16 @@
+[09-Mar-2014 18:37:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'bernkast_php'@'localhost' (using password: NO)' in /home/bernkast/public_html/universityajax/php/database.php:28
+Stack trace:
+#0 /home/bernkast/public_html/universityajax/php/database.php(28): PDO->__construct('mysql:dbname=be...', 'bernkast_php', '')
+#1 /home/bernkast/public_html/universityajax/php/class.GuestBook.php(31): DatabaseHandler::setDatabaseParams('localhost', 'bernkast_php', '', 'bernkast_univer...')
+#2 /home/bernkast/public_html/universityajax/php/class.Threaded_GuestBook.php(9): GuestBook->__construct('post', 'thread_id', 'DESC')
+#3 /home/bernkast/public_html/universityajax/control.php(5): Threaded_GuestBook->__construct('thread', 'post')
+#4 {main}
+  thrown in /home/bernkast/public_html/universityajax/php/database.php on line 28
+[09-Mar-2014 18:49:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'bernkast_php'@'localhost' (using password: NO)' in /home/bernkast/public_html/universityajax/php/database.php:28
+Stack trace:
+#0 /home/bernkast/public_html/universityajax/php/database.php(28): PDO->__construct('mysql:dbname=be...', 'bernkast_php', '')
+#1 /home/bernkast/public_html/universityajax/php/class.GuestBook.php(31): DatabaseHandler::setDatabaseParams('localhost', 'bernkast_php', '', 'bernkast_uniaja...')
+#2 /home/bernkast/public_html/universityajax/php/class.Threaded_GuestBook.php(9): GuestBook->__construct('post', 'thread_id', 'DESC')
+#3 /home/bernkast/public_html/universityajax/control.php(5): Threaded_GuestBook->__construct('thread', 'post')
+#4 {main}
+  thrown in /home/bernkast/public_html/universityajax/php/database.php on line 28

@@ -1,0 +1,76 @@
+body {
+    background-color: #F2F1E9;
+    color: #41434A; 
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+#header {
+    background-color: #DEDCC3;
+    padding: 0px 0px 0px 20px; 
+    margin-bottom: 5px;
+    width: 940px;
+    border: 1px #cdc89f solid;
+}
+.threadItem {
+    background-color: #d3cfad;   
+    padding: 5px 0px 5px 20px; 
+    border: 1px #bdb891 solid;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #41434A; 
+}
+.threadItem p { margin: 5px;}
+.threadTitle { font-weight: bold;}
+.threadUtil {font-size: 12px}
+h1 {
+    font-family: Cambria, serif;
+    font-style: italic;
+}
+
+button {
+    background-color: #877963;
+    border: 1px #574e41 solid;
+    color: #dbd6cd;
+    padding: 6px;
+}
+
+input {
+    background-color: #877963;
+    border: 1px #574e41 solid;
+    color: #dbd6cd;
+    padding: 6px;
+    width: 100%;
+}
+
+textarea {
+    background-color: #877963;
+    border: 1px #574e41 solid;
+    color: #dbd6cd;
+    padding: 6px;
+    width: 100%;
+    resize: none;
+}
+
+.buttonHover {
+    background-color: #b2a796;
+    border-color: #91826b;
+    color: #524b40;    
+}
+
+.postTitle p {
+    padding:0px;
+    margin:0px;
+}
+
+.editPostFormStyle {
+    background-color: #8caea2;
+    border: 1px #5f8578 solid;
+    color: #41434A; 
+}
+.editThreadFormStyle {
+    background-color: #DEDCC3;
+    border: 1px #cdc89f solid;
+    color: #41434A; 
+}
+
+
